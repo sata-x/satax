@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>さたえっくす</title>
   <style>
-    /* グローバルスタイル */
+
     * {
       margin: 0;
       padding: 0;
@@ -16,44 +16,43 @@
 
     body {
       background: linear-gradient(135deg, #f0f0f0, #e6e6e6);
-      height: auto; /* 高さを自動調整 */
+      height: auto; 
       scroll-behavior: smooth;
     }
 
-    /* メインコンテンツ */
+
     #main-content {
       opacity: 0;
       transition: opacity 1.5s ease-in-out;
-      display: none; /* 初期状態は非表示 */
+      display: none; 
     }
 
-    /* バナー */
     .banner {
       width: 100%;
-      height: 400px; /* 高さを400pxに設定 */
+      height: 400px;
       display: flex;
-      align-items: flex-start; /* 上寄せに調整 */
+      align-items: flex-start; 
       justify-content: center;
-      overflow: hidden; /* オーバーフローを隠す */
+      overflow: hidden; 
       background-color: #d3e0ff;
       position: relative;
     }
 
     .banner-image {
-      max-width: 80%; /* 横幅を調整して目立たせる */
-      height: auto; /* 高さは自動調整 */
+      max-width: 80%; 
+      height: auto; 
       object-fit: contain;
       transition: transform 0.5s ease, opacity 0.5s ease;
-      opacity: 0.9; /* 少し透けるように設定 */
+      opacity: 0.9;
     }
 
-    /* マウスオーバーで拡大効果 */
+  
     .banner-image:hover {
-      transform: scale(1.05); /* 拡大して強調 */
-      opacity: 1; /* 拡大時に不透明に */
+      transform: scale(1.05); 
+      opacity: 1;
     }
 
-    /* ナビゲーションバー */
+
     .nav-bar {
       background-color: #b0c4de;
       padding: 15px 0;
@@ -77,7 +76,7 @@
       color: #1e90ff;
     }
 
-    /* 各セクションのスタイル */
+    
     .content {
       padding: 50px 20px;
       max-width: 1200px;
@@ -92,17 +91,17 @@
 </head>
 <body>
 
-  <!-- メインコンテンツ -->
   <div id="main-content">
     <header id="banner" class="banner">
       <img src="aaa.png" alt="バナー" class="banner-image">
     </header>
 
     <nav class="nav-bar">
+       <img src="aaa.png" alt="バナー" class="banner-image">
       <ul>
-        <li><a href="https://sata-x.github.io/sata-x/index/">index</a></li>
-        <li><a href="shttps://sata-x.github.io/sata-x/memo/">メモ帳</a></li>
-        <li><a href="https://sata-x.github.io/sata-x/sozai/">素材</a></li>
+        <li><a href="https://sata-x.github.io/satax/index">index</a></li>
+        <li><a href="https://sata-x.github.io/satax/memo">メモ帳</a></li>
+        <li><a href="https://sata-x.github.io/satax/sozai">素材</a></li>
       </ul>
     </nav>
 
